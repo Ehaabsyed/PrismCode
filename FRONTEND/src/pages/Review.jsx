@@ -17,7 +17,7 @@ const reviewCode=async()=>{
     setshow(true);
   //api call to backend
   console.log("Reviewing code:");
-  axios.post('http://localhost:3000/ai/review',{
+  axios.post('https://prismcode.onrender.com/ai/review',{
     prompt:code
   }).then((response)=>{ 
     console.log(response.data.response);
