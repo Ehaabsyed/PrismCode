@@ -1,0 +1,22 @@
+@import "tailwindcss";
+.grad{
+    background: linear-gradient(90deg, #7b69e0 0%, #6d61ff 100%);
+color: transparent;
+background-clip: text;
+}
+.bg{
+    box-shadow: 0px 0px 12px 4px rgba(255, 255, 255, 0.75);
+}
+
+.text-effect {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 55px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: normal;
+  background-image: linear-gradient(to top, rgb(142, 45, 226), rgb(74, 0, 224));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
