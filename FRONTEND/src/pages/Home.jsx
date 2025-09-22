@@ -11,8 +11,8 @@ function Home() {
 
       </div>
       <img src="/bg.jpg" className="h-full absolute top-0 left-0 w-full object-cover" alt="" />
-      <h1 className="text-white text-5xl font-bold z-20 mx-30 text-center leading-16">Instant, professional code reviews to help you write cleaner, faster, and bug-free code</h1>
-      <button onClick={()=>navigate('/code')} className="z-20 px-10 py-2 bg-white hover:scale-109 animate ease-in-out transition cursor-pointer duration-550 text-black rounded-full border-none text-xl font-bold mt-3 bg">Get Started</button>
+      <h1 className="text-white text-2xl md:text-5xl font-bold z-20 md:mx-30 text-center md:leading-16">Instant, professional code reviews to help you write cleaner, faster, and bug-free code</h1>
+      <button onClick={()=>navigate('/code')} className="z-20 px-10 py-2 bg-white hover:scale-109 animate ease-in-out transition cursor-pointer duration-550 text-black rounded-full border-none text-xl font-bold md:mt-3 mt-5 bg">Get Started</button>
     </div>
   )
 }

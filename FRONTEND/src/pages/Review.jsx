@@ -30,8 +30,8 @@ const reviewCode=async()=>{
 }
 
   return (
-    <div className="h-screen flex w-full bg-zinc-900 text-white">
-      <div className="left w-1/2 h-full border-r-2 border-white p-4">
+    <div className="h-screen md:flex-row flex-col flex w-full bg-zinc-900 text-white">
+      <div className="left md:w-1/2 min-h-screen md:h-full md:border-r-2 border-white p-4">
         <div className="editor bg-black relative h-full w-full rounded-md overflow-auto">
           <Editor
             value={code}
@@ -52,8 +52,8 @@ const reviewCode=async()=>{
         </div>
       </div>
 
-      <div className="right w-1/2 h-full p-4">
-        <div className="respond h-full w-full overflow-auto bg-black rounded-md p-4">
+      <div className="right  md:w-1/2 min-h-screen md:h-full p-4">
+        <div className="respond md:h-full h-screen w-full overflow-auto bg-black rounded-md p-4">
           <h2 className="text-lg font-semibold">AI Review</h2>
           <p className="mt-2 text-[18px] text-gray-300">
             <ResponsePreview response={response} />

@@ -1,4 +1,7 @@
 @import "tailwindcss";
+body{
+  background-color: #18181B;
+}
 .grad{
     background: linear-gradient(90deg, #7b69e0 0%, #6d61ff 100%);
 color: transparent;
